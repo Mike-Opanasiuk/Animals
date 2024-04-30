@@ -10,24 +10,26 @@
 @media (max-width: 767px) {
   .full-screen-background {
     background-image: url('/public/cat-mobile.jpg');
-    background-attachment: scroll; 
+    background-attachment: scroll;
   }
 }
 
 .overlay-text {
   color: #fff;
   position: absolute;
-  left: 3%;
   top: 59%;
   transform: translateY(-50%);
-  /* max-width: 400px; */
 }
 
-.overlay-text h1, .overlay-text p, .overlay-text button {
+.overlay-text h1,
+.overlay-text p,
+.overlay-text button {
   z-index: 2;
 }
 
-.mission-statement, .ways-to-help, .animal-carousel {
+.mission-statement,
+.ways-to-help,
+.animal-carousel {
   background-color: rgba(248, 249, 250, 0.85);
   padding: 20px;
   margin: 20px 0;
@@ -35,10 +37,43 @@
 
 .logo {
   color: white;
-  position: absolute;
-  left: 2%;  /* Відступ зліва */
-  top: 4%;   /* Відступ зверху */
-  width: 150px; /* Ширина лого */
-  height: auto; /* Автоматична висота для збереження пропорцій */
-  z-index: 10; /* Забезпечити, що лого буде над іншими елементами */
+  width: 150px;
+  height: auto;
+  z-index: 10;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 5px #fff !important; /* White box-shadow */
+}
+
+.lead {
+  padding-left: 0.25rem;
+}
+
+@media (max-width: 576px) {
+  .bold-sm {
+    font-size: 25px;
+  }
+
+  .overlay-text {
+    color: #fff;
+    position: absolute;
+    top: 85%;
+    transform: translateY(-50%);
+  }
+
+  .lead {
+    padding-left: 0;
+    text-align: center;
+    font-size: 1rem !important;
+  }
+
+  .display-3 {
+    text-align: center;
+  }
+
 }

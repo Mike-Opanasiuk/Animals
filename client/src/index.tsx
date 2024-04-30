@@ -6,7 +6,6 @@ import { router } from './router';
 
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootswatch/dist/litera/bootstrap.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
