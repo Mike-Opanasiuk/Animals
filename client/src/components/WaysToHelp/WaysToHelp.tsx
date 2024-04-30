@@ -19,7 +19,7 @@ export const WaysToHelp = () => {
                 </Col>
                 <Col>
                     <Card className="h-100 text-center">
-                        <Card.Img variant="top" src="volunteer.png" />
+                        <Card.Img variant="top" src="volunteer.jpg" />
                         <Card.Body>
                             <Card.Title>Волонтерство</Card.Title>
                             <Card.Text>

@@ -11,9 +11,17 @@ export const HomePage = () => {
     <div>
       <div className="full-screen-background">
         <div className="overlay-text">
-          <h1>Врятуйте життя сьогодні!</h1>
-          <p>Долучайтесь до нашої місії по захисту безпритульних та врятованих тварин.</p>
-          <Button variant="primary">Дізнатися більше</Button>
+          <h1 className='display-3'>Врятуйте життя сьогодні!</h1>
+          <h5 className='lead ps-1'>Долучайтесь до нашої місії по захисту безпритульних та врятованих тварин.</h5>
+          <Container>
+            <Row className='justify-content-center'>
+              <Col lg="6">
+                <Button variant="outline-light" className='mt-3' size="lg">
+                  <span className='m-5'>Дізнатися більше</span>
+                </Button>
+              </Col>
+            </Row>
+          </Container>
         </div>
       </div>
       <Container>
