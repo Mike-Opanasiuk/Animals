@@ -4,11 +4,13 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  background-attachment: fixed;
 }
 
 @media (max-width: 767px) {
   .full-screen-background {
     background-image: url('/public/cat-mobile.jpg');
+    background-attachment: scroll; 
   }
 }
 
@@ -21,33 +23,12 @@
   max-width: 400px;
 }
 
-.overlay-text h1 {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 15px;
+.overlay-text h1, .overlay-text p, .overlay-text button {
+  z-index: 2;
 }
 
-.overlay-text p {
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-
-.overlay-text button {
-  background-color: transparent;
-  padding: 10px 20px;
-  color: white;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.mission-statement, .ways-to-help {
+.mission-statement, .ways-to-help, .animal-carousel {
+  background-color: rgba(248, 249, 250, 0.85);
   padding: 20px;
-  background-color: #f8f9fa;
-  margin-bottom: 20px;
-}
-
-.help-options .option {
-  margin-top: 10px;
+  margin: 20px 0;
 }
