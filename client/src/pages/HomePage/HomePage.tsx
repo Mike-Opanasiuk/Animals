@@ -11,7 +11,7 @@ export const HomePage = () => {
   return (
     <div>
       <div className="full-screen-background">
-        <Link to="/"><img src="logo.png" alt="Хвіст добра" className="logo" /></Link>
+        <Link to="/"><img src="logo-invert.png" alt="Хвіст добра" className="logo" /></Link>
         <div className="overlay-text">
           <h1 className='display-3'>Врятуйте життя сьогодні!</h1>
           <h5 className='lead ps-1'>Долучайтесь до нашої місії по захисту безпритульних та врятованих тварин.</h5>
