@@ -41,7 +41,7 @@ export const Footer = () => {
                             <h6 className="text-uppercase fw-bold mb-4">
                                 <i className="bi bi-chat-square-heart me-3"></i>Хвіст добра
                             </h6>
-                            <p className="text-start">
+                            <p id="help-together">
                                 Допоможемо чотирьохлапим разом!
                             </p>
                         </div>

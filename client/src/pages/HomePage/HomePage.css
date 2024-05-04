@@ -42,7 +42,7 @@
   z-index: 10;
 }
 
-.navbar-toggler-icon {
+.icon-inverted {
   filter: brightness(0) invert(1);
 }
 
@@ -76,4 +76,13 @@
     text-align: center;
   }
 
+}
+
+.link-invert:hover {
+  background-color: white;
+  color: black;
+}
+
+.link-invert {
+  color: white;
 }

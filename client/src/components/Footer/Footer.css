@@ -1,0 +1,10 @@
+#help-together {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    #help-together {
+        text-align: center;
+    }
+    
+}

@@ -22,14 +22,14 @@ export const HomePage = () => {
           <h5 className='lead'>Долучайтесь до нашої місії по захисту безпритульних та врятованих тварин.</h5>
           <Container>
             <Row className='justify-content-center'>
-              {/* <Link to="/about" className='text-decoration-none text-white'> */}
-                <Button variant="outline-light"  className='mt-5 col-10 col-md-5' size="lg">
-                  <span className=''>Дізнатися більше</span>
-                </Button>
-              {/* </Link> */}
+                <Link to="/about" className='link-invert p-2 text-center border border-light rounded text-decoration-none d-block mt-5 col-10 col-md-5' style={{ display: 'block' }}>
+                  Дізнатися більше
+                </Link>
             </Row>
           </Container>
         </div>
+
+
       </div>
 
       <Container>
