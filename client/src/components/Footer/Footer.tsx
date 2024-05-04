@@ -87,10 +87,14 @@ export const Footer = () => {
                                 <i className="bi bi-signpost me-3"></i> вул. Добровольців, корпус 1
                             </p>
                             <p>
-                                <i className="bi bi-phone me-3"></i> +380 67 333 11 11
+                                <a href="tel:+380673331111" className="text-decoration-none text-reset">
+                                    <i className="bi bi-phone me-3"></i> +380 67 333 11 11
+                                </a>
                             </p>
                             <p>
-                                <i className="bi bi-envelope me-3"></i> tailofgoodness.gmail.com
+                                <a href="mailto:tailofgoodness@gmail.com" className="text-decoration-none text-reset">
+                                    <i className="bi bi-envelope me-3"></i> tailofgoodness@gmail.com
+                                </a>
                             </p>
                         </div>
                     </div>
