@@ -13,14 +13,10 @@
 .nav-link {
     text-decoration: none;
     color: white;
-    /* Білий колір тексту */
     transition: background-color 0.3s ease;
-    /* Плавна зміна фону */
 }
 
 .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    /* Напівпрозорий білий фон при наведенні */
     color: #FFF;
-    /* Ви можете змінити колір тексту, якщо потрібно */
 }

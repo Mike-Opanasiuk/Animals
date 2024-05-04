@@ -1,4 +1,4 @@
-import { Container, Row, Col, Nav, Button } from 'react-bootstrap';
+import { Container, Row, Button } from 'react-bootstrap';
 
 import './HomePage.css';
 import { AnimalCarousel } from '../../components/AnimalsCarousel/AnimalsCarousel';
@@ -6,6 +6,7 @@ import { MissionStatement } from '../../components/MissionStatement/MissionState
 import { WaysToHelp } from '../../components/WaysToHelp/WaysToHelp';
 import { HomeNav } from '../../components/HomeNav/HomeNav';
 import { Link } from 'react-router-dom';
+import { Footer } from '../../components/Footer/Footer';
 
 export const HomePage = () => {
   return (
@@ -21,9 +22,11 @@ export const HomePage = () => {
           <h5 className='lead'>Долучайтесь до нашої місії по захисту безпритульних та врятованих тварин.</h5>
           <Container>
             <Row className='justify-content-center'>
-              <Button variant="outline-light" className='mt-3 col-10 col-md-5' size="lg">
-                <span className=''>Дізнатися більше</span>
-              </Button>
+              {/* <Link to="/about" className='text-decoration-none text-white'> */}
+                <Button variant="outline-light"  className='mt-5 col-10 col-md-5' size="lg">
+                  <span className=''>Дізнатися більше</span>
+                </Button>
+              {/* </Link> */}
             </Row>
           </Container>
         </div>
@@ -33,7 +36,9 @@ export const HomePage = () => {
         <MissionStatement />
         <AnimalCarousel />
         <WaysToHelp />
+        <Footer></Footer>
       </Container>
+
 
     </div>
   );

@@ -1,0 +1,9 @@
+#carousel {
+    width: 65%;
+}
+
+@media (max-width: 962px) { /* TODO: Change to MD or LG bootstrap size*/
+    #carousel {
+        width: 100%;
+    }
+}

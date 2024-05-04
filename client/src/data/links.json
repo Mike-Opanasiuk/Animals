@@ -1,0 +1,14 @@
+[
+    {
+        "linkTitle": "Про нас",
+        "linkRoute": "/about"
+    },
+    {
+        "linkTitle": "Новини",
+        "linkRoute": "/news"
+    },
+    {
+        "linkTitle": "Контакти",
+        "linkRoute": "/contacts"
+    }
+]

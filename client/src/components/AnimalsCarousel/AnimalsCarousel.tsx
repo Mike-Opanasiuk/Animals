@@ -1,8 +1,9 @@
 import { Carousel } from 'react-bootstrap';
+import './AnimalsCarousel.css';
 
 export const AnimalCarousel = () => {
     return (
-        <Carousel className='w-50 ms-auto me-auto'>
+        <Carousel id="carousel" className='ms-auto me-auto'>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
