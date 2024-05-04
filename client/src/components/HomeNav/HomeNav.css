@@ -8,6 +8,21 @@
         border: 1px solid white;
         border-radius: 0.5rem;
     }
+
+    .nav-link-inverted {
+        color: black;
+        transition: background-color 0.3s ease;
+        
+        border: 1px solid black !important;
+        border-radius: 0.5rem !important;
+    }
+    
+    
+}
+
+.nav-link-inverted:hover {
+    background-color: rgba(215, 215, 215, 0.6) !important;
+    color: #FFF;
 }
 
 .nav-link {
@@ -21,15 +36,3 @@
     color: #FFF;
 }
 
-.nav-link-inverted {
-    color: black;
-    transition: background-color 0.3s ease;
-    
-    border: 1px solid black !important;
-    border-radius: 0.5rem !important;
-}
-
-.nav-link-inverted:hover {
-    background-color: rgba(215, 215, 215, 0.6) !important;
-    color: #FFF;
-}

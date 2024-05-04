@@ -13,15 +13,16 @@ export const NavigationBar: React.FC<NavigationBarProps> = ({ logo, links, links
 
     // TODO: Replace by more efficient code
     useEffect(() => {
-        const el = document.querySelector(".navbar-toggler-icon");
-        const els = document.querySelectorAll(".nav-link");
-        if (window.location.pathname == "/") {
-            el?.classList.add("icon-inverted");
-            els.forEach(e => e.classList.remove("nav-link-inverted"));
+        const burger = document.querySelector(".navbar-toggler-icon");
+        const links = document.querySelectorAll(".nav-link");
+        const isNavbarCollapsed = document.querySelector("navbar .collapsed");
+        if (window.location.pathname === "/" && isNavbarCollapsed !== undefined) {
+            burger?.classList.add("icon-inverted");
+            links.forEach(e => e.classList.remove("nav-link-inverted"));
             return;
         }
-        el?.classList.remove("icon-inverted");
-        els.forEach(e => e.classList.add("nav-link-inverted"));
+        burger?.classList.remove("icon-inverted");
+        links.forEach(e => e.classList.add("nav-link-inverted"));
     }, []);
 
     return (

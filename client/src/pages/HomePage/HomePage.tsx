@@ -1,12 +1,12 @@
-import { Container, Row, Button } from 'react-bootstrap';
-
-import './HomePage.css';
+import { Container, Row } from 'react-bootstrap';
 import { AnimalCarousel } from '../../components/AnimalsCarousel/AnimalsCarousel';
 import { MissionStatement } from '../../components/MissionStatement/MissionStatement';
 import { WaysToHelp } from '../../components/WaysToHelp/WaysToHelp';
 import { HomeNav } from '../../components/HomeNav/HomeNav';
 import { Link } from 'react-router-dom';
 import { Footer } from '../../components/Footer/Footer';
+
+import './HomePage.css';
 
 export const HomePage = () => {
   return (
@@ -29,7 +29,6 @@ export const HomePage = () => {
           </Container>
         </div>
 
-
       </div>
 
       <Container>
@@ -38,7 +37,6 @@ export const HomePage = () => {
         <WaysToHelp />
         <Footer></Footer>
       </Container>
-
 
     </div>
   );
