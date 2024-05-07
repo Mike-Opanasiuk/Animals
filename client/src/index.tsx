@@ -7,6 +7,7 @@ import { router } from './router';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import { AlertProvider } from './hooks/useAlert';
 
 
 const root = ReactDOM.createRoot(
@@ -15,6 +16,8 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    <AlertProvider>
+      <RouterProvider router={router}></RouterProvider>
+    </AlertProvider>
   </React.StrictMode>
 );

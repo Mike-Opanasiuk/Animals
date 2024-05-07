@@ -1,0 +1,13 @@
+.alert-container {
+    position: fixed;
+    left: 65%;
+    width: 30%;
+    z-index: 9999;
+}
+
+@media (max-width: 768px) {
+    .alert-container {
+        width: 75%;
+        left: 15%;
+    }
+}

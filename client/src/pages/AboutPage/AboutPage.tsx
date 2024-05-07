@@ -1,5 +1,12 @@
+import { useAlert } from '../../hooks/useAlert';
+
 export const AboutPage = () => {
+    const { showAlert } = useAlert();
+
     return (
-        <div>About page</div>
-    )
-}
+        <>
+            <h1>About Page</h1>
+            <button onClick={() => showAlert("Some about page warning")}>Show Alert</button>
+        </>
+    );
+};
